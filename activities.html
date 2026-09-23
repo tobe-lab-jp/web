@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>活動記録 — To be. Lab</title>
+<meta name="description" content="To be. Lab の開催ごとの日程・会場・プログラム・写真の記録。">
+<link rel="icon" href="assets/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+JP:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
+</head>
+<body data-lang="ja" data-page="activities">
+<script src="layout.js" data-part="header"></script>
+<main>
+<section class="page-head">
+  <div class="container">
+    <nav class="crumbs" aria-label="breadcrumb"><a href="index.html" data-ja="ホーム" data-en="Home">ホーム</a><span>/</span><span data-ja="活動記録" data-en="Archive">活動記録</span></nav>
+    <p class="section-label">Archive</p>
+    <h1 class="page-title" data-ja="活動記録" data-en="Activities Archive">活動記録</h1>
+    <p class="section-intro" data-ja="開催ごとの日程・会場・プログラム・写真をまとめています。スイス、ドイツでの開催を、決まり次第ここに追加していきます。" data-en="Dates, venues, programs, and photos for each event. Switzerland and Germany will be filled in as plans are confirmed.">開催ごとの日程・会場・プログラム・写真をまとめています。スイス、ドイツでの開催を、決まり次第ここに追加していきます。</p>
+    <nav class="archive-nav" id="archiveNav" aria-label="開催地"></nav>
+  </div>
+</section>
+<section class="section archive-section" id="photos">
+  <div class="container">
+    <h2 class="sub-h" data-ja="スイス・ドイツの様子" data-en="Scenes from Switzerland and Germany">スイス・ドイツの様子</h2>
+    <div class="gallery" id="galleryAll"></div>
+  </div>
+</section>
+<section class="section archive-section">
+  <div class="container">
+    <div id="archive"></div>
+  </div>
+</section>
+</main>
+<script src="events.js"></script>
+<script src="members.js"></script>
+<script src="news.js"></script>
+<script src="ideas.js"></script>
+<script src="layout.js" data-part="footer"></script>
+<script src="site.js"></script>
+</body>
+</html>

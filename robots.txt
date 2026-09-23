@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tofu-tsukuba.github.io/tobelab-web/sitemap.xml

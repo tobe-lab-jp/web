@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>イベント・締切 — To be. Lab</title>
+<meta name="description" content="To be. Lab の開催予定と締切、Important Dates。">
+<link rel="icon" href="assets/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+JP:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
+</head>
+<body data-lang="ja" data-page="events">
+<script src="layout.js" data-part="header"></script>
+<main>
+<section class="page-head">
+  <div class="container">
+    <nav class="crumbs" aria-label="breadcrumb"><a href="index.html" data-ja="ホーム" data-en="Home">ホーム</a><span>/</span><span data-ja="イベント・締切" data-en="Events & deadlines">イベント・締切</span></nav>
+    <p class="section-label">Events &amp; Deadlines</p>
+    <h1 class="page-title" data-ja="イベント・締切" data-en="Events &amp; Deadlines">イベント・締切</h1>
+    <p class="section-intro" data-ja="開催予定と、応募の締切をまとめています。日程は決まり次第、こちらに反映します。" data-en="Upcoming events and application deadlines. Dates will be updated here as they are confirmed.">開催予定と、応募の締切をまとめています。日程は決まり次第、こちらに反映します。</p>
+    <div class="chips" data-filters data-target="#calAll" data-attr="type" data-search="#calSearch">
+      <button class="chip is-on" data-filter="" data-ja="すべて" data-en="All">すべて</button>
+      <button class="chip" data-filter="symposium" data-ja="シンポジウム" data-en="Symposium">シンポジウム</button>
+      <button class="chip" data-filter="deadline" data-ja="締切・予定" data-en="Deadlines">締切・予定</button>
+      <input class="filter-search" id="calSearch" type="search" placeholder="絞り込み / Filter…" aria-label="Filter">
+    </div>
+  </div>
+</section>
+<section class="section archive-section">
+  <div class="container">
+    <div class="events-block">
+      <div id="calAll" class="events-list"></div>
+      <p class="ev-empty filter-empty" hidden data-ja="該当する予定はありません。" data-en="Nothing to show.">該当する予定はありません。</p>
+    </div>
+    <div class="events-block">
+      <p class="events-head" data-ja="これまでのイベント" data-en="Past events">これまでのイベント</p>
+      <div class="events-list events-past" id="calPast"></div>
+    </div>
+
+    <div class="dates" id="dates">
+      <p class="dates-h" data-ja="Important Dates ・ 重要な日程" data-en="Important Dates">Important Dates ・ 重要な日程</p>
+      <table class="info info-dates" id="datesTable"></table>
+    </div>
+
+    <div class="cta-grid cta-grid-2">
+      <article class="cta-card cta-y">
+        <span class="cta-en">Call for Presentations</span>
+        <h3 data-ja="発表者を募集します（近日開始）" data-en="Call for presenters (opening soon)">発表者を募集します（近日開始）</h3>
+        <a class="btn btn-primary btn-sm" data-form="presentation" data-pending-ja="応募フォームは近日公開" data-pending-en="Application form coming soon" data-ja="発表に応募する（Googleフォーム）" data-en="Apply to present (Google Form)">発表に応募する（Googleフォーム）</a>
+      </article>
+      <article class="cta-card cta-p">
+        <span class="cta-en">Call for Workshops</span>
+        <h3 data-ja="ワークショップ担当者を募集します（近日開始）" data-en="Call for workshop leaders (opening soon)">ワークショップ担当者を募集します（近日開始）</h3>
+        <a class="btn btn-primary btn-sm" data-form="workshop" data-pending-ja="応募フォームは近日公開" data-pending-en="Application form coming soon" data-ja="ワークショップに応募する（Googleフォーム）" data-en="Apply to lead (Google Form)">ワークショップに応募する（Googleフォーム）</a>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+<script src="events.js"></script>
+<script src="members.js"></script>
+<script src="news.js"></script>
+<script src="ideas.js"></script>
+<script src="layout.js" data-part="footer"></script>
+<script src="site.js"></script>
+</body>
+</html>

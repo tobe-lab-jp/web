@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>運営メンバー — To be. Lab</title>
+<meta name="description" content="To be. Lab 運営メンバーの専門・留学先。">
+<link rel="icon" href="assets/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+JP:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
+</head>
+<body data-lang="ja" data-page="about">
+<script src="layout.js" data-part="header"></script>
+<main>
+<section class="page-head">
+  <div class="container">
+    <nav class="crumbs" aria-label="breadcrumb"><a href="index.html" data-ja="ホーム" data-en="Home">ホーム</a><span>/</span><span data-ja="運営メンバー" data-en="Committee">運営メンバー</span></nav>
+    <p class="section-label">Organizing Committee</p>
+    <h1 class="page-title" data-ja="運営メンバー" data-en="Organizing Committee">運営メンバー</h1>
+    <p class="section-intro" data-ja="海外で学ぶ派遣留学生を中心に、多様な専門分野の仲間が集まっています。" data-en="Led by Japanese exchange students abroad, with members from a wide range of fields.">海外で学ぶ派遣留学生を中心に、多様な専門分野の仲間が集まっています。</p>
+    <div class="chips" data-filters data-target="#committeeGroups" data-attr="country" data-search="#memberSearch">
+      <span id="memberFilters" class="chips-inline"></span>
+      <input class="filter-search" id="memberSearch" type="search" placeholder="検索 / Search…" aria-label="Search members">
+    </div>
+  </div>
+</section>
+<section class="section archive-section">
+  <div class="container">
+    <div id="committeeGroups"></div>
+    <div class="join-box" id="join">
+      <div>
+        <p class="cta-en">Join the team</p>
+        <h3 data-ja="メンバーを募集しています" data-en="We are looking for members">メンバーを募集しています</h3>
+        <p data-ja="イベントや企画を一緒に進めてくれる仲間を募集しています。参加はフォームからお願いします。参加してくださった方は、上の「メンバー」の枠に掲載します。" data-en="We are looking for people to help run our events and projects. Please join through the form; new members will appear in the &quot;Members&quot; frame above.">イベントや企画を一緒に進めてくれる仲間を募集しています。参加はフォームからお願いします。参加してくださった方は、上の「メンバー」の枠に掲載します。</p>
+      </div>
+      <a class="btn btn-primary" data-form="member" data-pending-ja="参加フォームは近日公開" data-pending-en="Form coming soon" data-ja="メンバーとして参加する（Googleフォーム）" data-en="Join as a member (Google Form)">メンバーとして参加する（Googleフォーム）</a>
+    </div>
+    <p class="ev-empty filter-empty" hidden data-ja="該当するメンバーはいません。" data-en="No matching members.">該当するメンバーはいません。</p>
+  </div>
+</section>
+</main>
+<script src="events.js"></script>
+<script src="members.js"></script>
+<script src="news.js"></script>
+<script src="ideas.js"></script>
+<script src="layout.js" data-part="footer"></script>
+<script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>お知らせ — To be. Lab</title>
+<meta name="description" content="To be. Lab のお知らせ一覧。">
+<link rel="icon" href="assets/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+JP:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
+</head>
+<body data-lang="ja" data-page="events">
+<script src="layout.js" data-part="header"></script>
+<main>
+<section class="page-head">
+  <div class="container">
+    <nav class="crumbs" aria-label="breadcrumb"><a href="index.html" data-ja="ホーム" data-en="Home">ホーム</a><span>/</span><span data-ja="お知らせ" data-en="News">お知らせ</span></nav>
+    <p class="section-label">News</p>
+    <h1 class="page-title" data-ja="お知らせ" data-en="News">お知らせ</h1>
+    <p class="section-intro" data-ja="募集・開催・報告など、To be. Lab の最新情報です。" data-en="Calls, events, reports and other updates from To be. Lab.">募集・開催・報告など、To be. Lab の最新情報です。</p>
+    <div class="chips" data-filters data-target="#newsAll" data-attr="tag">
+      <button class="chip is-on" data-filter="" data-ja="すべて" data-en="All">すべて</button>
+      <button class="chip" data-filter="call" data-ja="募集" data-en="Call">募集</button>
+      <button class="chip" data-filter="event" data-ja="開催" data-en="Event">開催</button>
+      <button class="chip" data-filter="report" data-ja="報告" data-en="Report">報告</button>
+      <button class="chip" data-filter="notice" data-ja="お知らせ" data-en="Notice">お知らせ</button>
+    </div>
+  </div>
+</section>
+<section class="section archive-section">
+  <div class="container">
+    <div class="news-page">
+      <div class="news-list news-list-full" id="newsAll"></div>
+      <p class="ev-empty filter-empty" hidden data-ja="該当するお知らせはありません。" data-en="Nothing to show.">該当するお知らせはありません。</p>
+    </div>
+  </div>
+</section>
+</main>
+<script src="events.js"></script>
+<script src="members.js"></script>
+<script src="news.js"></script>
+<script src="ideas.js"></script>
+<script src="layout.js" data-part="footer"></script>
+<script src="site.js"></script>
+</body>
+</html>
