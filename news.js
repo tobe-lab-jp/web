@@ -21,6 +21,12 @@ const NEWS_TAGS = {
 
 const NEWS = [
   {
+    id: "n-member-call-2026", date: "2026-09-23", tag: "call",
+    title:   { ja: "メンバー募集を開始しました", en: "We are now recruiting members" },
+    summary: { ja: "イベントや企画を一緒に進めてくれる仲間を募集しています。構想中の企画と参加フォームはこちらからご覧ください。", en: "We are looking for members to help run our events and projects. See the ideas we're working on and join through the form." },
+    link: "ideas.html"
+  },
+  {
     id: "n-call-2026", date: "2026-09-20", tag: "call",
     title:   { ja: "発表者・ワークショップ担当者の募集を近日開始します", en: "Calls for presenters and workshop leaders will open soon" },
     summary: { ja: "日本の文化や研究を発信したい派遣留学生のみなさん、書道・折り紙などの文化体験を届けたい方へ。募集の詳細と応募フォームは、準備ができ次第こちらでお知らせします。", en: "For exchange students who want to share Japanese culture and research, and for those who would like to lead cultural workshops: details and the application forms will be announced here once they are ready." },
