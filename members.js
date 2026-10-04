@@ -53,6 +53,16 @@ const MEMBERS = [
   },
   {
     core: true,
+    name: { ja: "三浦 凜々香", en: "Ririka Miura" },
+    role: { ja: "", en: "" },
+    field: { ja: "地域福祉、美容福祉", en: "Community welfare, beauty welfare" },
+    country: { ja: "ドイツ", en: "Germany" },
+    inst: { ja: "オーム大学", en: "Technische Hochschule Nürnberg Georg Simon Ohm" },
+    photo: "assets/images/members/miura.jpg",
+    contact: { instagram: "https://www.instagram.com/nail.ganbaru/", facebook: "", linkedin: "", email: "", web: "" }
+  },
+  {
+    core: true,
     name: { ja: "尾崎 倫斗", en: "Rinto Ozaki" },
     role: { ja: "", en: "" }, field: { ja: "", en: "" },
     country: { ja: "イタリア", en: "Italy" }, inst: { ja: "", en: "" },
