@@ -38,7 +38,7 @@ const MEMBERS = [
   {
     core: true,
     name: { ja: "岩橋 治子", en: "Haruko Iwahashi" },
-    role: { ja: "広報", en: "Public Relations" }, field: { ja: "", en: "" },
+    role: { ja: "広報", en: "Public Relations" }, field: { ja: "環境教育・化学", en: "Environmental Education & Chemistry" },
     country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "ミュンヘン工科大学", en: "Technical University of Munich" },
     photo: "assets/images/members/iwahashi.jpg",
     contact: { instagram: "https://www.instagram.com/haruko.iw/", facebook: "", linkedin: "", email: "", web: "" }
