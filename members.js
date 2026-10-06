@@ -46,8 +46,8 @@ const MEMBERS = [
   {
     core: true,
     name: { ja: "杉元 優介", en: "Yusuke Sugimoto" },
-    role: { ja: "渉外（協賛・提携）", en: "External Relations" }, field: { ja: "", en: "" },
-    country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "", en: "" },
+    role: { ja: "渉外（協賛・提携）", en: "External Relations" }, field: { ja: "建設ロボット", en: "Construction robotics" },
+    country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "シュトゥットガルト大学 ISYS", en: "University of Stuttgart, ISYS" },
     photo: "assets/images/members/sugimoto.jpg",
     contact: { instagram: "https://www.instagram.com/yusuke.70/", facebook: "https://www.facebook.com/yusuke.70", linkedin: "https://www.linkedin.com/in/yusuke70", email: "japankksy99@gmail.com", web: "" }
   },
