@@ -12,7 +12,7 @@
        web:       "https://…"          （個人サイトなど。入れたときだけ表示）
    ============================================================ */
 const MEMBER_GROUPS = {
-  core:  { ja: "コア", en: "Core members" },
+  core:  { ja: "コア", en: "Core" },
   other: { ja: "メンバー",     en: "Members" }
 };
 
