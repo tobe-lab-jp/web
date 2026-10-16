@@ -61,6 +61,16 @@ const MEMBERS = [
     photo: "assets/images/members/miura.jpg",
     contact: { instagram: "https://www.instagram.com/nail.ganbaru/", facebook: "", linkedin: "", email: "", web: "" }
   },
+   {
+    core: true,
+    name: { ja: "新井 隆永", en: "Takahisa Arai" },
+    role: { ja: "渉外（協賛・提携）", en: "External Relations" }, 
+    field: { ja: "電気電子工学", en: "Electrical & Electronic Engineering" },
+    country: { ja: "", en: "" },
+    inst: { ja: "", en: "" },
+    photo: "assets/images/members/arai.jpg",
+    contact: { instagram: "https://www.instagram.com/arai_4263", facebook: "", linkedin: "", email: "r06e02@suzuka.kosen-ac.jp", web: "" }
+  },
   {
     core: true,
     name: { ja: "尾崎 倫斗", en: "Rinto Ozaki" },
