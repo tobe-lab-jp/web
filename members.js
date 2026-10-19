@@ -30,10 +30,10 @@ const MEMBERS = [
   {
     core: true,
     name: { ja: "丹羽 彩月", en: "Satsuki Niwa" },
-    role: { ja: "財務", en: "Finance" }, field: { ja: "", en: "" },
+    role: { ja: "財務", en: "Finance" }, field: { ja: "情報学", en: "Informatics" },
     country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "", en: "" },
     photo: "assets/images/members/niwa.jpg",
-    contact: { instagram: "https://www.instagram.com/satsu_ki_bow/", facebook: "", linkedin: "", email: "", web: "" }
+    contact: { instagram: "https://www.instagram.com/satsu_ki_bow/", facebook: "", linkedin: "", email: "niwa.satsuki@icloud.com", web: "" }
   },
   {
     core: true,
