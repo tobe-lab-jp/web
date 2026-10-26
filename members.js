@@ -69,7 +69,7 @@ const MEMBERS = [
     country: { ja: "", en: "" },
     inst: { ja: "", en: "" },
     photo: "assets/images/members/arai.jpg",
-    contact: { instagram: "https://www.instagram.com/arai_4263", facebook: "", linkedin: "", email: "r06e02@suzuka.kosen-ac.jp", web: "" }
+    contact: { instagram: "https://www.instagram.com/arai_4263", facebook: "", linkedin: "", email: "r06e02@suzuka.kosen-ac.jp", web: "https://arai4263.github.io/" }
   },
   {
     core: true,
@@ -86,5 +86,29 @@ const MEMBERS = [
     country: { ja: "イタリア", en: "Italy" }, inst: { ja: "", en: "" },
     photo: "",
     contact: { instagram: "https://www.instagram.com/14harinezumi/", facebook: "", linkedin: "", email: "", web: "" }
+  },
+    {
+    core: false,
+    name: { ja: "中平 広美", en: "Hiromi Nakadaira" },
+    role: { ja: "総務", en: "General Affairs" }, field: { ja: "心理学", en: "Psychology" },
+    country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "ライプツィヒ大学", en: "Leipzig University" },
+    photo: "assets/images/members/Nakadaira.jpg",
+    contact: { instagram: "https://www.instagram.com/hirominakadaira_0928?srtk=MTQwMDQyYmdyM2NkOA==", facebook: "https://www.facebook.com/share/198Ad8H8fo/", linkedin: "https://www.linkedin.com/in/hiromi-n-857935392?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "hiromunomonnta2@gmail.com", web: "" }
+  },
+    {
+    core: false,
+    name: { ja: "築地 夏海", en: "Natsumi Tsukiji" },
+    role: { ja: "サポート", en: "Support" }, field: { ja: "", en: "" },
+    country: { ja: "タイ", en: "Thailand" }, inst: { ja: "", en: "" },
+    photo: "assets/images/members/Tsukiji.jpg",
+    contact: { instagram: "", facebook: "", linkedin: "", email: "", web: "https://researchmap.jp/tsukijinatsumi" }
+  },
+    {
+    core: false,
+    name: { ja: "佐藤 愛美", en: "Ami Sato" },
+    role: { ja: "", en: "" }, field: { ja: "宇宙工学", en: "Space Engineering" },
+    country: { ja: "チェコ共和国", en: "Czech Republic" }, inst: { ja: "ブルノ工科大学", en: "Brno University of Technology" },
+    photo: "",
+    contact: { instagram: "https://www.instagram.com/amiinbrno?psln=a2J1bTIzODU2dGZv&utm_source=qr", facebook: "", linkedin: "", email: "", web: "" }
   }
 ];
