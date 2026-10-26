@@ -98,7 +98,7 @@ const MEMBERS = [
     {
     core: false,
     name: { ja: "築地 夏海", en: "Natsumi Tsukiji" },
-    role: { ja: "サポート", en: "Support" }, field: { ja: "", en: "" },
+    role: { ja: "サポート", en: "Support" }, field: { ja: "動物学", en: "zoology" },
     country: { ja: "タイ", en: "Thailand" }, inst: { ja: "", en: "" },
     photo: "assets/images/members/Tsukiji.JPG",
     contact: { instagram: "", facebook: "", linkedin: "", email: "", web: "https://researchmap.jp/tsukijinatsumi" }
