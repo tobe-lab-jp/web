@@ -46,7 +46,7 @@ const MEMBERS = [
   {
     core: true,
     name: { ja: "杉元 優介", en: "Yusuke Sugimoto" },
-    role: { ja: "渉外（協賛・提携）", en: "External Relations" }, field: { ja: "建設ロボット", en: "Construction robotics" },
+    role: { ja: "渉外(協賛・提携),技術", en: "External Relations" }, field: { ja: "建設ロボット", en: "Construction robotics" },
     country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "シュトゥットガルト大学 ISYS", en: "University of Stuttgart, ISYS" },
     photo: "assets/images/members/sugimoto.jpg",
     contact: { instagram: "https://www.instagram.com/yusuke.70/", facebook: "https://www.facebook.com/yusuke.70", linkedin: "https://www.linkedin.com/in/yusuke70", email: "japankksy99@gmail.com", web: "" }
@@ -54,7 +54,7 @@ const MEMBERS = [
   {
     core: true,
     name: { ja: "三浦 凜々香", en: "Ririka Miura" },
-    role: { ja: "", en: "" },
+    role: { ja: "コンテンツ", en: "content" },
     field: { ja: "地域福祉、美容福祉", en: "Community welfare, beauty welfare" },
     country: { ja: "ドイツ", en: "Germany" },
     inst: { ja: "オーム大学", en: "Technische Hochschule Nürnberg Georg Simon Ohm" },
@@ -64,7 +64,7 @@ const MEMBERS = [
    {
     core: true,
     name: { ja: "新井 隆永", en: "Takahisa Arai" },
-    role: { ja: "渉外（協賛・提携）", en: "External Relations" }, 
+    role: { ja: "渉外(協賛・提携),技術", en: "External Relations" }, 
     field: { ja: "電気電子工学", en: "Electrical & Electronic Engineering" },
     country: { ja: "", en: "" },
     inst: { ja: "", en: "" },
