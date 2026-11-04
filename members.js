@@ -116,7 +116,7 @@ const MEMBERS = [
     name: { ja: "石垣 実莉", en: "Minori Ishigaki" },
     role: { ja: "コンテンツ", en: "Content" }, field: { ja: "アート・デザイン", en: "Design" },
     country: { ja: "デンマーク", en: "Denmark" }, inst: { ja: "", en: "" },
-    photo: "assets/images/members/Ishigaki.jpg",
+    photo: "assets/images/members/Ishigaki.jpeg",
     contact: { instagram: "https://www.instagram.com/lmin.o0?vrfl=MTVsb2pqOG90a3N5cg%3D%3D&utm_source=qr", facebook: "", linkedin: "", email: "min.l7o.ri@gmail.com", web: "" }
   },
    {
