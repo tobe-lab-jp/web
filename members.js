@@ -30,7 +30,7 @@ const MEMBERS = [
   {
     core: true,
     name: { ja: "丹羽 彩月", en: "Satsuki Niwa" },
-    role: { ja: "財務", en: "Finance" }, field: { ja: "情報学", en: "Informatics" },
+    role: { ja: "財務&総務", en: "Finance" }, field: { ja: "情報学", en: "Informatics" },
     country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "", en: "" },
     photo: "assets/images/members/niwa.jpg",
     contact: { instagram: "https://www.instagram.com/satsu_ki_bow/", facebook: "", linkedin: "", email: "niwa.satsuki@icloud.com", web: "" }
@@ -46,7 +46,7 @@ const MEMBERS = [
   {
     core: true,
     name: { ja: "杉元 優介", en: "Yusuke Sugimoto" },
-    role: { ja: "渉外(協賛・提携),技術", en: "External Relations" }, field: { ja: "建設ロボット", en: "Construction robotics" },
+    role: { ja: "渉外&技術", en: "External Relations & Technical" }, field: { ja: "建設ロボット", en: "Construction robotics" },
     country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "シュトゥットガルト大学 ISYS", en: "University of Stuttgart, ISYS" },
     photo: "assets/images/members/sugimoto.jpg",
     contact: { instagram: "https://www.instagram.com/yusuke.70/", facebook: "https://www.facebook.com/yusuke.70", linkedin: "https://www.linkedin.com/in/yusuke70", email: "japankksy99@gmail.com", web: "" }
@@ -64,7 +64,7 @@ const MEMBERS = [
    {
     core: true,
     name: { ja: "新井 隆永", en: "Takahisa Arai" },
-    role: { ja: "渉外(協賛・提携),技術", en: "External Relations" }, 
+    role: { ja: "渉外&技術", en: "External Relations & Technical" }, 
     field: { ja: "電気電子工学", en: "Electrical & Electronic Engineering" },
     country: { ja: "", en: "" },
     inst: { ja: "", en: "" },
@@ -106,9 +106,25 @@ const MEMBERS = [
     {
     core: false,
     name: { ja: "佐藤 愛美", en: "Ami Sato" },
-    role: { ja: "", en: "" }, field: { ja: "宇宙工学", en: "Space Engineering" },
+    role: { ja: "交流会", en: "Social event" }, field: { ja: "宇宙工学", en: "Space Engineering" },
     country: { ja: "チェコ共和国", en: "Czech Republic" }, inst: { ja: "ブルノ工科大学", en: "Brno University of Technology" },
     photo: "",
     contact: { instagram: "https://www.instagram.com/amiinbrno?psln=a2J1bTIzODU2dGZv&utm_source=qr", facebook: "", linkedin: "", email: "", web: "" }
+  },
+    {
+    core: false,
+    name: { ja: "石垣 実莉", en: "Minori Ishigaki" },
+    role: { ja: "コンテンツ", en: "Content" }, field: { ja: "アート・デザイン", en: "Design" },
+    country: { ja: "デンマーク", en: "Denmark" }, inst: { ja: "", en: "" },
+    photo: "assets/images/members/Ishigaki.jpg",
+    contact: { instagram: "https://www.instagram.com/lmin.o0?vrfl=MTVsb2pqOG90a3N5cg%3D%3D&utm_source=qr", facebook: "", linkedin: "", email: "min.l7o.ri@gmail.com", web: "" }
+  },
+   {
+    core: false,
+    name: { ja: "野村 蒼生", en: "Nomura Aoi" },
+    role: { ja: "財務", en: "Finance" }, field: { ja: "法律学", en: "Law" },
+    country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "ゲーテ大学フランクフルトアムマイン", en: "Goethe Universität Frankfurt am Main " },
+    photo: "assets/images/members/Nomura.jpg",
+    contact: { instagram: "https://www.instagram.com/n_aoi1122?dlrf=YTNnZzhkMDhhcDQ1", facebook: "https://www.facebook.com/share/1E2XrA6UbH/", linkedin: "https://www.linkedin.com/in/aoi-nonura-ba54443b3?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "nomura.aoi.291@s.kyushu-u.ac.jp", web: "" }
   }
 ];
