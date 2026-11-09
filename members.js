@@ -140,7 +140,7 @@ const MEMBERS = [
     name: { ja: "堤 優太", en: "Yuta Tsutsumi" },
     role: { ja: "広報&交流会", en: "Public Relations & Social Event" }, field: { ja: "コンピューターサイエンス", en: "Computer Sciense" },
     country: { ja: "イギリス", en: "United Kingdom" }, inst: { ja: "リーズ大学", en: "University of Leeds" },
-    photo: "assets/images/members/Tsusumi.jpg",
+    photo: "assets/images/members/Tsutsumi.jpg",
     contact: { instagram: "https://www.instagram.com/briconwy", facebook: "https://www.facebook.com/share/1AzdcLxpKt/?mibextid=wwXIfr", linkedin: "http://www.linkedin.com/in/yuta-tsutsumi", email: "AlriBr0920@gmail.com", web: "" }
   },
     {
