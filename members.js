@@ -138,7 +138,7 @@ const MEMBERS = [
     {
     core: false,
     name: { ja: "堤 優太", en: "Yuta Tsutsumi" },
-    role: { ja: "広報", en: "Public Relations" }, field: { ja: "コンピューターサイエンス", en: "Computer Sciense" },
+    role: { ja: "広報&交流会", en: "Public Relations & Social Event" }, field: { ja: "コンピューターサイエンス", en: "Computer Sciense" },
     country: { ja: "イギリス", en: "United Kingdom" }, inst: { ja: "リーズ大学", en: "University of Leeds" },
     photo: "assets/images/members/Tsusumi.jpg",
     contact: { instagram: "https://www.instagram.com/briconwy", facebook: "https://www.facebook.com/share/1AzdcLxpKt/?mibextid=wwXIfr", linkedin: "http://www.linkedin.com/in/yuta-tsutsumi", email: "AlriBr0920@gmail.com", web: "" }
@@ -146,7 +146,7 @@ const MEMBERS = [
     {
     core: false,
     name: { ja: "松田 小町", en: "Komachi Matsuda" },
-    role: { ja: "", en: "" }, field: { ja: "半導体デバイス", en: "Semiconductor Devices" },
+    role: { ja: "EPFL イベント", en: "EPFL Event" }, field: { ja: "半導体デバイス", en: "Semiconductor Devices" },
     country: { ja: "ベルギー", en: "Belgium" }, inst: { ja: "imec", en: "imec" },
     photo: "assets/images/members/Matsuda.jpg",
     contact: { instagram: "https://www.instagram.com/tobi_koma?obrf=Y3l6Z3VrbmhkYWd4&utm_source=qr", facebook: "", linkedin: "", email: "", web: "" }
