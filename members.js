@@ -30,7 +30,7 @@ const MEMBERS = [
   {
     core: true,
     name: { ja: "丹羽 彩月", en: "Satsuki Niwa" },
-    role: { ja: "財務&総務", en: "Finance" }, field: { ja: "情報学", en: "Informatics" },
+    role: { ja: "財務&総務", en: "Finance & General Affairs" }, field: { ja: "情報学", en: "Informatics" },
     country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "", en: "" },
     photo: "assets/images/members/niwa.jpg",
     contact: { instagram: "https://www.instagram.com/satsu_ki_bow/", facebook: "", linkedin: "", email: "niwa.satsuki@icloud.com", web: "" }
@@ -46,7 +46,7 @@ const MEMBERS = [
   {
     core: true,
     name: { ja: "杉元 優介", en: "Yusuke Sugimoto" },
-    role: { ja: "渉外&技術", en: "External Relations & Technical" }, field: { ja: "建設ロボット", en: "Construction robotics" },
+    role: { ja: "渉外&技術", en: "External Relations & Technical" }, field: { ja: "建設ロボット", en: "Construction Robotics" },
     country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "シュトゥットガルト大学 ISYS", en: "University of Stuttgart, ISYS" },
     photo: "assets/images/members/sugimoto.jpg",
     contact: { instagram: "https://www.instagram.com/yusuke.70/", facebook: "https://www.facebook.com/yusuke.70", linkedin: "https://www.linkedin.com/in/yusuke70", email: "japankksy99@gmail.com", web: "" }
@@ -55,7 +55,7 @@ const MEMBERS = [
     core: true,
     name: { ja: "三浦 凜々香", en: "Ririka Miura" },
     role: { ja: "コンテンツ", en: "content" },
-    field: { ja: "地域福祉、美容福祉", en: "Community welfare, beauty welfare" },
+    field: { ja: "地域福祉、美容福祉", en: "Community Welfare, Beauty Welfare" },
     country: { ja: "ドイツ", en: "Germany" },
     inst: { ja: "オーム大学", en: "Technische Hochschule Nürnberg Georg Simon Ohm" },
     photo: "assets/images/members/miura.jpg",
@@ -98,7 +98,7 @@ const MEMBERS = [
     {
     core: false,
     name: { ja: "築地 夏海", en: "Natsumi Tsukiji" },
-    role: { ja: "サポート", en: "Support" }, field: { ja: "動物学", en: "zoology" },
+    role: { ja: "サポート", en: "Support" }, field: { ja: "動物学", en: "Zoology" },
     country: { ja: "タイ", en: "Thailand" }, inst: { ja: "", en: "" },
     photo: "assets/images/members/Tsukiji.JPG",
     contact: { instagram: "", facebook: "", linkedin: "", email: "", web: "https://researchmap.jp/tsukijinatsumi" }
@@ -121,10 +121,34 @@ const MEMBERS = [
   },
    {
     core: false,
-    name: { ja: "野村 蒼生", en: "Nomura Aoi" },
+    name: { ja: "野村 蒼生", en: "Aoi Nomura" },
     role: { ja: "財務", en: "Finance" }, field: { ja: "法律学", en: "Law" },
     country: { ja: "ドイツ", en: "Germany" }, inst: { ja: "ゲーテ大学フランクフルトアムマイン", en: "Goethe Universität Frankfurt am Main " },
     photo: "assets/images/members/Nomura.jpg",
     contact: { instagram: "https://www.instagram.com/n_aoi1122?dlrf=YTNnZzhkMDhhcDQ1", facebook: "https://www.facebook.com/share/1E2XrA6UbH/", linkedin: "https://www.linkedin.com/in/aoi-nonura-ba54443b3?utm_source=share_via&utm_content=profile&utm_medium=member_android", email: "nomura.aoi.291@s.kyushu-u.ac.jp", web: "" }
-  }
+  },
+    {
+    core: false,
+    name: { ja: "横川 暖", en: "Hinata Yokogawa" },
+    role: { ja: "渉外", en: "External Relations" }, field: { ja: "植物生理学", en: "Plant Physiology" },
+    country: { ja: "フランス", en: "France" }, inst: { ja: "フランス国立科学研究センター", en: "French National Centre for Scientific Research" },
+    photo: "assets/images/members/Yokogawa.jpg",
+    contact: { instagram: "https://www.instagram.com/hina20050517/", facebook: "", linkedin: "https://www.linkedin.com/in/hinata-yokokawa/", email: "g2420422@edu.cc.ocha.ac.jp", web: "" }
+  },
+    {
+    core: false,
+    name: { ja: "堤 優太", en: "Yuta Tsutsumi" },
+    role: { ja: "広報&交流会", en: "Public Relations & Social Event" }, field: { ja: "コンピューターサイエンス", en: "Computer Sciense" },
+    country: { ja: "イギリス", en: "United Kingdom" }, inst: { ja: "リーズ大学", en: "University of Leeds" },
+    photo: "assets/images/members/Tsutsumi.jpg",
+    contact: { instagram: "https://www.instagram.com/briconwy", facebook: "https://www.facebook.com/share/1AzdcLxpKt/?mibextid=wwXIfr", linkedin: "http://www.linkedin.com/in/yuta-tsutsumi", email: "AlriBr0920@gmail.com", web: "" }
+  },
+    {
+    core: false,
+    name: { ja: "松田 小町", en: "Komachi Matsuda" },
+    role: { ja: "EPFL イベント", en: "EPFL Event" }, field: { ja: "半導体デバイス", en: "Semiconductor Devices" },
+    country: { ja: "ベルギー", en: "Belgium" }, inst: { ja: "imec", en: "imec" },
+    photo: "assets/images/members/Matsuda.jpg",
+    contact: { instagram: "https://www.instagram.com/tobi_koma?obrf=Y3l6Z3VrbmhkYWd4&utm_source=qr", facebook: "", linkedin: "", email: "", web: "" }
+  },
 ];
