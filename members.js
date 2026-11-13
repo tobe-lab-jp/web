@@ -136,7 +136,7 @@ const MEMBERS = [
     contact: { instagram: "https://www.instagram.com/hina20050517/", facebook: "", linkedin: "https://www.linkedin.com/in/hinata-yokokawa/", email: "g2420422@edu.cc.ocha.ac.jp", web: "" }
   },
     {
-    core: false,
+    core: true,
     name: { ja: "堤 優太", en: "Yuta Tsutsumi" },
     role: { ja: "広報&交流会", en: "Public Relations & Social Event" }, field: { ja: "コンピューターサイエンス", en: "Computer Sciense" },
     country: { ja: "イギリス", en: "United Kingdom" }, inst: { ja: "リーズ大学", en: "University of Leeds" },
