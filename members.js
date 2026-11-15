@@ -130,7 +130,7 @@ const MEMBERS = [
     {
     core: false,
     name: { ja: "横川 暖", en: "Hinata Yokogawa" },
-    role: { ja: "渉外", en: "External Relations" }, field: { ja: "植物生理学", en: "Plant Physiology" },
+    role: { ja: "広報&渉外", en: "Public Relations & External Relations" }, field: { ja: "植物生理学", en: "Plant Physiology" },
     country: { ja: "フランス", en: "France" }, inst: { ja: "フランス国立科学研究センター", en: "French National Centre for Scientific Research" },
     photo: "assets/images/members/Yokogawa.jpg",
     contact: { instagram: "https://www.instagram.com/hina20050517/", facebook: "", linkedin: "https://www.linkedin.com/in/hinata-yokokawa/", email: "g2420422@edu.cc.ocha.ac.jp", web: "" }
