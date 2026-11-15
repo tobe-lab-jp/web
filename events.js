@@ -26,7 +26,7 @@
 const EVENTS = [
   {
     id: "switzerland-2026", type: "symposium",
-    tbd: date,
+    tbd: 2027-2-27,
     sort: "2027-02",
     date: "2027-2-27",
     time: "10:00-15:30",
