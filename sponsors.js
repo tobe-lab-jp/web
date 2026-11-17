@@ -19,7 +19,7 @@ const SPONSORS = [
     name: { ja: "Zürich Japan Society", en: "Zürich Japan Society" },
     role: { ja: "協力", en: "Support" },
     url: "https://www.instagram.com/zurich_japan_society/",
-    image: "assets/images/sponsors/Zurich_Japan.png"
+    image: "assets/images/sponsors/Zurich-Japan.png"
   },
   // --- 協賛 (Sponsorship) ---
   {
