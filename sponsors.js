@@ -11,7 +11,7 @@ const SPONSORS = [
     name: { ja: "スイス公文学園高等部", en: "Kumon Leysin Academy of Switzerland" },
     role: { ja: "会場提供・協力", en: "Venue & Support" },
     url: "https://www.klas-ac.jp/",
-    image: "assets/images/Switzerland.png"
+    image: "assets/images/sponser/Switzerland.png"
   },
   {
     id: "zurich-japan",
@@ -19,16 +19,16 @@ const SPONSORS = [
     name: { ja: "Zürich Japan Society", en: "Zürich Japan Society" },
     role: { ja: "協力", en: "Support" },
     url: "https://www.instagram.com/zurich_japan_society/",
-    image: "assets/images/Zurich_Japan.JPG"
+    image: "assets/images/sponser/Zurich_Japan.png"
   },
   // --- 協賛 (Sponsorship) ---
   {
     id: "ana",
     tier: "sponsorship",
     name: { ja: "ANA", en: "ANA" },
-    role: { ja: "協賛", en: "Sponsorship" },
-    url: "https://www.ana.co.jp/", // ※正しいURLに書き換えてください
-    image: "assets/images/ana.png" // ※後で画像ファイル名に合わせて書き換えてください
+    role: { ja: "物品協賛", en: "In-kind Sponsorship" },
+    url: "https://www.ana.co.jp/ja/jp/", 
+    image: "assets/images/sponser/ana.jpg" 
   }
 ];
 
