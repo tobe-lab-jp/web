@@ -286,52 +286,26 @@
 <section class="section section-dark reveal in" id="sponsors">
   <div class="container">
     <p class="section-label">05 — Support &amp; Sponsorship</p>
-    <!-- 見出し修正：協賛・パートナー → 協力・協賛 -->
     <h2 class="section-title" data-ja="協力・協賛" data-en="Support &amp; Sponsorship">協力・協賛</h2>
     <p class="section-intro light" data-ja="To be. Lab の活動は、志を共にする皆さまに支えられています。" data-en="The activities of To be. Lab are supported by those who share our vision.">To be. Lab の活動は、志を共にする皆さまに支えられています。</p>
 
+    <!-- 協力枠 -->
     <div class="sponsor-tier reveal in">
-      <!-- 見出し修正：協力・共催団体 → 協力 -->
       <p class="tier-label" data-ja="協力" data-en="Support">協力</p>
-      <div class="sponsor-grid sponsor-grid-lg">
-        
-        <!-- スイス公文学園高等部 -->
-        <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
-          <a href="https://www.klas-ac.jp/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="width: 100%; height: 160px; display: flex; justify-content: center; align-items: center; padding: 16px; box-sizing: border-box; text-decoration: none;">
-            <img src="assets/images/Switzerland.png" alt="スイス公文学園高等部" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-          </a>
-          <p style="text-align: center; margin-top: 12px; font-size: 0.9em; line-height: 1.5; width: 100%;" data-ja="会場提供・協力<br>スイス公文学園高等部" data-en="Venue &amp; Support<br>Kumon Leysin Academy of Switzerland">
-            会場提供・協力<br>スイス公文学園高等部
-          </p>
-        </div>
-        
-        <!-- Zürich Japan Society -->
-        <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
-          <a href="https://www.instagram.com/zurich_japan_society/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="width: 100%; height: 160px; display: flex; justify-content: center; align-items: center; padding: 16px; box-sizing: border-box; text-decoration: none;">
-            <img src="assets/images/Zurich_Japan.JPG" alt="Zürich Japan Society" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-          </a>
-          <p style="text-align: center; margin-top: 12px; font-size: 0.9em; line-height: 1.5; width: 100%;" data-ja="協力<br>Zürich Japan Society" data-en="Support<br>Zürich Japan Society">
-            協力<br>Zürich Japan Society
-          </p>
-        </div>
-
-      </div>
+      <!-- ここに sponsors.js から自動でデータが入ります -->
+      <div class="sponsor-grid sponsor-grid-lg" id="sponsor-list-support"></div>
     </div>
 
+    <!-- 協賛枠 -->
     <div class="sponsor-tier reveal in">
-      <!-- 見出し修正：Supporters → 協賛 -->
       <p class="tier-label" data-ja="協賛" data-en="Sponsorship">協賛</p>
-      <div class="sponsor-grid">
-        <div class="sponsor-logo"><span>Logo</span></div>
-        <div class="sponsor-logo"><span>Logo</span></div>
-        <div class="sponsor-logo"><span>Logo</span></div>
-        <div class="sponsor-logo"><span>Logo</span></div>
-      </div>
+      <!-- ここに sponsors.js から自動でデータが入ります -->
+      <div class="sponsor-grid" id="sponsor-list-sponsorship"></div>
     </div>
 
     <div class="sponsor-cta">
       <p data-ja="To be. Lab を応援してくださる企業・団体・個人を募集しています。" data-en="We welcome companies, organizations, and individuals who wish to support To be. Lab.">To be. Lab を応援してくださる企業・団体・個人を募集しています。</p>
-      <a class="btn btn-primary" href="mailto:tobe.lab.jp@gmail.com?subject=%E5%8D%94%E8%B3%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%20%2F%20About%20sponsorship&amp;body=To%20be.%20Lab%20%E3%81%94%E6%8B%85%E5%BD%93%E8%80%85%E6%A7%98%0A%0A%E5%8D%94%E8%B3%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E6%80%9D%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0A%0A%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%E3%81%94%E6%89%80%E5%B1%9E%EF%BC%9A%0A%E3%81%94%E9%80%A3%E7%B5%A1%E5%85%88%EF%BC%9A%0A%E3%81%94%E7%94%A8%E4%BB%B6%EF%BC%9A%0A" data-ja="協賛について問い合わせる" data-en="Ask about sponsorship">協賛について問い合わせる</a>
+      <a class="btn btn-primary" href="mailto:tobe.lab.jp@gmail.com?subject=..." data-ja="協賛について問い合わせる" data-en="Ask about sponsorship">協賛について問い合わせる</a>
     </div>
   </div>
 </section>
@@ -343,5 +317,6 @@
 <script src="ideas.js"></script>
 <script src="layout.js" data-part="footer"></script>
 <script src="site.js"></script>
+<script src="js/sponsors.js"></script>
 </body>
 </html>
