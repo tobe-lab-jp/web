@@ -69,7 +69,7 @@ const MEMBERS = [
     country: { ja: "", en: "" },
     inst: { ja: "", en: "" },
     photo: "assets/images/members/arai.jpg",
-    contact: { instagram: "https://www.instagram.com/arai_4263", facebook: "", linkedin: "", email: "r06e02@suzuka.kosen-ac.jp", web: "https://arai4263.github.io/" }
+    contact: { instagram: "https://www.instagram.com/arai_4263", facebook: "", linkedin: "", email: "r06e02@ed.cc.suzuka-ct.ac.jp", web: "https://arai4263.github.io/" }
   },
   {
     core: true,
