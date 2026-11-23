@@ -1,24 +1,15 @@
 /* ============================================================
    イベント情報（トップの「イベント」欄 と 活動記録ページ の両方に反映されます）
 
-   1件のかたち（使う項目だけでOK）:
-   {
-     id:      "switzerland-2026",     // ページ内リンク用の名前（英数字とハイフン）
-     tbd:     true,                   // 日程未定なら true。決まったら消して date を入れる
-     sort:    "2026-11",              // 並び順のキー（日程未定のとき）
-     date:    "2026-11-21",           // 開催日（YYYY-MM-DD）
-     time:    "10:00–18:00",          // 時間（任意）
-     season:  { ja:"…", en:"…" },     // 日程未定のときの目安表示
-     place:   { ja:"スイス", en:"Switzerland" },      // 国・都市
-     venue:   { ja:"○○大学 △△ホール", en:"…" },       // 会場名（任意）
-     venueUrl:"https://maps.google.com/…",            // 地図リンク（任意）
-     title:   { ja:"…", en:"…" },
-     desc:    { ja:"…", en:"…" },
-     capacity:{ ja:"70名規模", en:"~70 attendees" },   // 任意
-     program: [ { time:"10:00", title:{ja:"…",en:"…"}, speaker:{ja:"…",en:"…"} } ],  // 任意
-     photos:  [ { src:"assets/images/events/swiss-01.jpg", caption:{ja:"…",en:"…"} } ], // 写真（任意）
-     link:    "", linkLabel: { ja:"…", en:"…" }        // 申込URL（空なら非表示）
-   }
+   type の種類:
+     "symposium" = フェスティバル
+     "online"    = オンライン交流会
+
+   複数フォームを設定する場合:
+     links: [
+       { url: "https://...", label: { ja: "参加を申し込む", en: "Register" } },
+       { url: "https://...", label: { ja: "登壇に応募する", en: "Apply" } }
+     ]
 
    ※ 日付が今日以降 →「開催予定」、過去 → 自動で「これまでのイベント」へ。
    ※ 文中に半角のダブルクオート " は使わないでください（「」を推奨）。
@@ -27,7 +18,7 @@ const EVENTS = [
   {
     id: "switzerland-2026", type: "symposium",
     sort: "2027-02",
-    date: "2027-2-27",
+    date: "2027-02-27",
     time: "10:00-15:30",
     place:  { ja: "スイス", en: "Switzerland" },
     venue:  { ja: "スイス公文高等学校 (KLAS)", en: "Kumon Leysin Academy of Switzerland (KLAS)" },
@@ -38,7 +29,10 @@ const EVENTS = [
     program: [],
     photos: [{ src:"assets/images/workshop.jpg", caption:{ja:"ワークショップのイメージ", en:"Concept image of the workshop"}},
             { src:"assets/images/art.jpg", caption:{ja:"アート展示のイメージ", en:"Art exhibition view"}}],
-    link: "https://forms.gle/7872DcL3t4HiaU3a9", linkLabel: { ja: "参加を申し込む（Googleフォーム）", en: "Register to attend (Google Form)" }
+    links: [
+      { url: "https://forms.gle/7872DcL3t4HiaU3a9", label: { ja: "参加を申し込む", en: "Register to attend" } },
+      { url: "https://docs.google.com/forms/d/e/1FAIpQLScRMOkElalKmX-Q_XJAtxg5etq4BY5h0UNT8KvVvFKk2d-CEw/viewform?usp=header", label: { ja: "運営・登壇に応募する", en: "Apply to present / organize" } }
+    ]
   },
   {
     id: "germany-2027", type: "symposium",
@@ -52,7 +46,7 @@ const EVENTS = [
     capacity: { ja: "70名規模", en: "~70 attendees" },
     program: [],
     photos: [],
-    link: "", linkLabel: { ja: "詳細はお問い合わせを", en: "Contact us for details" }
+    links: []
   }
 ];
 
@@ -60,7 +54,7 @@ const EVENTS = [
    締切・予定（カレンダーに「Deadline」として並びます）
    日程が決まったら tbd: true を消し、date: "YYYY-MM-DD" を入れてください。
    sort は日程未定のときの並び順の目安（実際の日付ではありません）。
-   type は "deadline"（締切）または "workshop"（ワークショップ関連）。
+   type は "deadline"（締切）にしてください。
    ============================================================ */
 const DEADLINES = [
   {
