@@ -58,13 +58,6 @@ const EVENTS = [
    ============================================================ */
 const DEADLINES = [
   {
-    id: "dl-open", type: "deadline", tbd: true, sort: "2026-09",
-    title: { ja: "応募受付の開始", en: "Call opens" },
-    place: { ja: "オンライン", en: "Online" },
-    desc:  { ja: "発表・ワークショップの募集を開始し、応募フォームを公開します。", en: "The application forms for presentations and workshops will open." },
-    related: "switzerland-2026"
-  },
-  {
     id: "dl-submit", type: "deadline", tbd: true, sort: "2026-10",
     title: { ja: "応募締切（発表・ワークショップ）", en: "Submission deadline (presentations & workshops)" },
     place: { ja: "オンライン", en: "Online" },
