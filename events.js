@@ -38,7 +38,7 @@ const EVENTS = [
     program: [],
     photos: [{ src:"assets/images/workshop.jpg", caption:{ja:"ワークショップのイメージ", en:"Concept image of the workshop"}},
             { src:"assets/images/art.jpg", caption:{ja:"アート展示のイメージ", en:"Art exhibition view"}}],
-    link: "", linkLabel: { ja: "詳細はお問い合わせを", en: "Contact us for details" }
+    link: "https://forms.gle/7872DcL3t4HiaU3a9", linkLabel: { ja: "参加を申し込む（Googleフォーム）", en: "Register to attend (Google Form)" }
   },
   {
     id: "germany-2027", type: "symposium",
