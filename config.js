@@ -40,9 +40,11 @@ const SITE = {
     { src: "assets/images/gallery/germany-3.jpg", ja: "ドイツ", en: "Germany" }
   ],
 
-  forms: {
-    presentation: "【ここに運営・登壇者用の回答用URL】",   // 発表応募
-    workshop: "【ここに運営・登壇者用の回答用URL】",       // ワークショップ応募
+ forms: {
+    // Google フォームの URL を、あとでここに貼ってください。
+    // 空 "" のあいだは、ボタンが「応募フォームは近日公開」と表示されて押せません。
+    presentation: "https://docs.google.com/forms/d/e/1FAIpQLScRMOkElalKmX-Q_XJAtxg5etq4BY5h0UNT8KvVvFKk2d-CEw/viewform?usp=header",   // 発表・運営応募
+    workshop: "https://docs.google.com/forms/d/e/1FAIpQLScRMOkElalKmX-Q_XJAtxg5etq4BY5h0UNT8KvVvFKk2d-CEw/viewform?usp=header",       // ワークショップ・運営応募
     member: "https://forms.gle/2VKhx1NhK6z27J1R8"  // メンバー参加（コアメンバー以外）・構想中の企画のお手伝い
   }
 };
