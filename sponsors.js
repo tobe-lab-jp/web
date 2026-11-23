@@ -35,7 +35,7 @@ const SPONSORS = [
 /* ============================================================
    HTMLへの自動描画処理
    ============================================================ */
-document.addEventListener('DOMContentLoaded', () => {
+(function() {
   const supportContainer = document.getElementById("sponsor-list-support");
   const sponsorshipContainer = document.getElementById("sponsor-list-sponsorship");
 
@@ -45,7 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let sponsorshipHTML = "";
 
   SPONSORS.forEach(sponsor => {
-    // 日英対応のテキスト（HTMLタグの改行を含む）
     const textJa = `${sponsor.role.ja}<br>${sponsor.name.ja}`;
     const textEn = `${sponsor.role.en}<br>${sponsor.name.en}`;
 
@@ -67,7 +66,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 画面の指定枠にHTMLを流し込む
   supportContainer.innerHTML = supportHTML;
   sponsorshipContainer.innerHTML = sponsorshipHTML;
-});
+})();
