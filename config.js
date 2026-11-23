@@ -41,10 +41,8 @@ const SITE = {
   ],
 
   forms: {
-    // Google フォームの URL を、あとでここに貼ってください。
-    // 空 "" のあいだは、ボタンが「応募フォームは近日公開」と表示されて押せません。
-    presentation: "",   // 発表応募
-    workshop: "",       // ワークショップ応募
+    presentation: "【ここに運営・登壇者用の回答用URL】",   // 発表応募
+    workshop: "【ここに運営・登壇者用の回答用URL】",       // ワークショップ応募
     member: "https://forms.gle/2VKhx1NhK6z27J1R8"  // メンバー参加（コアメンバー以外）・構想中の企画のお手伝い
   }
 };
